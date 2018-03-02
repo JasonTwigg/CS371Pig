@@ -18,7 +18,7 @@ public class PigGameState {
 
         int turnNum = (int)(2*Math.random());
         int p0Score = 0;
-        int p1Score = 1;
+        int p1Score = 0;
         int curTotal = 0;
         int diceVal = (int)(6*Math.random());
 
