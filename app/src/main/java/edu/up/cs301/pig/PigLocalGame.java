@@ -33,7 +33,8 @@ public class PigLocalGame extends LocalGame {
     @Override
     protected boolean canMove(int playerIdx) {
         //TODO  You will implement this method
-        return false;
+        return (playerIdx == pigState.getTurnNum());
+
     }
 
     /**
