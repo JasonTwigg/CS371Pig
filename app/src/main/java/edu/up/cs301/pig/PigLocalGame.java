@@ -15,11 +15,16 @@ import android.util.Log;
  */
 public class PigLocalGame extends LocalGame {
 
+    private PigGameState pigState;
+
     /**
      * This ctor creates a new game state
      */
     public PigLocalGame() {
         //TODO  You will implement this constructor
+
+        pigState = new PigGameState();
+
     }
 
     /**

@@ -16,11 +16,27 @@ public class PigGameState {
 
     public PigGameState(){
 
+        int turnNum = (int)(2*Math.random());
+        int p0Score = 0;
+        int p1Score = 1;
+        int curTotal = 0;
+        int diceVal = (int)(6*Math.random());
+
 
 
     }
 
     public PigGameState( PigGameState pigState ){
+
+        PigGameState newPigState;
+
+        newPigState = new PigGameState();
+
+        newPigState.setCurTotal(newPigState.getCurTotal());
+        newPigState.setDiceVal(newPigState.getDiceVal());
+        newPigState.setP0Score(newPigState.getP0Score());
+        newPigState.setP1Score(newPigState.getP1Score());
+        newPigState.setTurnNum(newPigState.getTurnNum());
 
 
     }
